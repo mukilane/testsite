@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<title> Sample Site </title>
+
+		<style type="text/css">
+			body {
+				margin: 0;
+				font-family: 'Roboto', sans-serif;
+			}
+			a {
+				text-decoration: none;
+			}
+			.wrap {
+				display: flex;
+				flex-direction: column;
+			}
+			header {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			header nav a, header div{
+				padding: 16px 12px;
+				display: inline-block;
+			}
+			.title-text {
+				font-family: monospace;
+				font-size: 18px;
+				padding: 16px;
+			}
+			.hero {
+				background: url('assets/hero-unsplash.jpg') 50% 50%;
+				background-size: cover;
+				min-height: 90vh;
+				max-height: 600px;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+			}
+			.hero-text {
+				font-family: monospace;
+				font-size: 48px;
+				text-shadow: 2px 2px 20px black;
+				color: white;
+				padding: 0px 16px 56px 16px;
+			}
+			main {
+				padding: 16px;
+				max-width: 760px;
+				margin: 0px auto;
+				color: rgba(0,0,0,0.84);
+				line-height: 24px;
+			}
+			.poststamp {
+				text-align: right;
+			    border-top: 1px solid #e0e0e0;
+			    padding: 16px;
+			}
+			footer {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				background: #E0E0E0;
+			}
+			footer a {
+				padding: 0 16px 0 0;
+			}
+			footer div {
+				padding: 16px;
+				min-width: 320px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<header>
+				<div class="title-text">
+					Sample Site
+				</div>
+				<nav>
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</nav>
+			</header>
+			
+			<div class="hero">
+				<div class="hero-text">
+					Lorem Ispum Dolor Sit Amet
+				</div>
+			</div>
+
+			<main>
+
+			<p>Lorem ipsum dolor sit amet, dolor altera pertinax an ius, recteque patrioque molestiae usu in. Et duo legere volumus vivendum. Sumo impetus salutatus in duo, quo omnesque indoctum cotidieque in, eu dicat petentium mei. In labore utroque inciderint vim, putent integre qui no, dicit aliquid utroque id qui.</p>
+
+			<p>Ei mentitum hendrerit vim, et dolore constituto qui. Vis vidit omnis pertinax at. Mucius vocibus te mel. Ad tale invidunt his, et usu zril nostrud. Ut mel dicta dolore urbanitas, in sed porro augue, vix ad graeco equidem abhorreant. Ex pri novum definiebas sadipscing, saepe expetenda te mea, eos eu cibo erat necessitatibus.</p>
+
+			<p>Partem reprimique et usu. Simul decore vis in, quod prodesset eos eu. Nec vero iisque deserunt ad. No pro iuvaret discere laboramus.</p>
+
+			<p>No per solet saperet. Eos nibh accumsan ad, an ullum etiam propriae per. Consul referrentur eu per. Id mel alia utinam nostro. His ei diceret tacimates. Senserit adipiscing cu nam, id has regione rationibus. Ea nec atqui eirmod, ei mel vero ignota petentium.</p>
+
+			<p>Option nostrud et pri, ne vel labitur consetetur. Eu vim velit sanctus scripserit, est summo pericula ex, cu eius dicit mei. Mea no viris equidem, his tale adversarium mediocritatem id. Cu omittam moderatius mea, pri eu facilisis philosophia, nonumy definiebas vis ut. Eum dictas quaerendum ei. Te graece dicunt persequeris his, labitur saperet vel ad.</p>
+
+			<div class="poststamp">
+				<span>Posted: 01-01-1970</span> <!--Unix Time :)-->
+				<br><span>By Author</span>
+			</div>
+
+			</main>
+
+			<footer>
+				<div style="display:flex; flex-direction: row;">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+				<div style="min-width:100px">Sample Site</div>
+			</footer>
+		</div>
+	</body>
+</html>
